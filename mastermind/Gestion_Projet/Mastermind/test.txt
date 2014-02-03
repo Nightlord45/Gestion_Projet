@@ -1,0 +1,17 @@
+impossibilité de rentré lettre
+chiffre entré entre 0 et 9
+uniquement 4 chiffres rentré
+si chiffre egal au code secret affiche =
+si chiffre sup au code secret affiche -
+si chiffre inf au code secret affiche +
+si tous chiffre = affiche gagner
+si 10 possibilité sans trouver affiche perdu
+affiche joueur gagné en x fois
+si gagne nbr de fois + affiche x fois ancien
+si gagne nbr de fois - affiche x fois nouveau
+affiche nom du joueur entré
+affiche score du bon joueur
+réactualise score joueur si -
+ne fais rien si +
+
+
