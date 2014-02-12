@@ -18,6 +18,8 @@ import play.libs.F.*;
 import static play.test.Helpers.*;
 import static org.fest.assertions.Assertions.*;
 
+import models.Decimal;
+
 
 /**
 *
@@ -26,11 +28,19 @@ import static org.fest.assertions.Assertions.*;
 *
 */
 public class ApplicationTest {
-
-    void assert_decimal(int d){
-	assertThat();
+    
+    
+    void  assert_decimal(int d){
+	assertThat(d>10);
     }
     
+    @Test
+	public void en_decimal(){
+	assert_decimal(1);
+	assert_decimal(2);
+	assert_decimal(10);
+    }
+
     @Test
 	public void simpleCheck() {
         int a = 1 + 1;
