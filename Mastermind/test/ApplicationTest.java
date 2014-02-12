@@ -30,13 +30,13 @@ import models.Decimal;
 public class ApplicationTest {
     
     
-    void  assert_decimal(int d){
-	
+    void  assert_decimal(int [] code,int [] valeur ){
+	assertThat(Arrays.equals(code,valeur));
     }
     
     @Test
 	public void en_decimal(){
-	assert_decimal(1);
+	assert_decimal((new int[]={1;2;3;4};),(new int []={2,3,5,1};));
 
     }
 
