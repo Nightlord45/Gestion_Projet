@@ -31,14 +31,13 @@ public class ApplicationTest {
     
     
     void  assert_decimal(int d){
-	assertThat(d>10);
+	
     }
     
     @Test
 	public void en_decimal(){
 	assert_decimal(1);
-	assert_decimal(2);
-	assert_decimal(10);
+
     }
 
     @Test
