@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -30,13 +31,16 @@ import models.Decimal;
 public class ApplicationTest {
     
     
-    void  assert_decimal(int d){
-	
+    void  assert_decimal(int [] code,int [] valeur ){
+	assertThat(Arrays.equals(code,valeur));
     }
     
     @Test
 	public void en_decimal(){
-	assert_decimal(1);
+	int [] code= new int[] {1,2,3,4};
+	int [] valeur= new int [] {2,3,4,5};
+	assert_decimal(code,valeur);
+	
 
     }
 
