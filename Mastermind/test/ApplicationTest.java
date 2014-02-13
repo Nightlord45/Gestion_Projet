@@ -40,7 +40,8 @@ public class ApplicationTest {
 	public void en_decimal(){
 	int [] code= {1,2,3,4};
 	int [] valeur= {2,3,4,5};
-	assert_decimal(code,valeur);
+	int [] valeur2 = {1,2,3,4};
+	assert_decimal(code,valeur2);
     }
 
 
