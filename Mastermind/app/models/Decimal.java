@@ -13,6 +13,10 @@ public class Decimal{
     private int compteur;
 
     public Decimal(){
-	this.compteur=0;
+	this.compteur=10;
 	}
+
+    public int getCompteur(){
+	return compteur;
+    }
 }

@@ -43,7 +43,7 @@ public class ApplicationTest {
     
     @Test
 	public void compteur(){
-	assertEquals(10,compteur);
+	assertEquals(10,new Decimal().getCompteur());
     }
 
 
