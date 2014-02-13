@@ -13,5 +13,8 @@ public class Decimal{
 
 
     public Decimal(){
+		String comp="";
+		if codeSecret<valeur2{
+			comp="+";
 	}
 }
