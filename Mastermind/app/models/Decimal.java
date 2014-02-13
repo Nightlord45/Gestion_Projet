@@ -19,4 +19,12 @@ public class Decimal{
     public int getCompteur(){
 	return compteur;
     }
+    
+    public sortie(){
+		if (this.compteur == 0){
+			String messFin="Nombre maximal d'éssais ateint";
+			System.out.print(messFin);
+			exit(0);
+		}
+	}
 }

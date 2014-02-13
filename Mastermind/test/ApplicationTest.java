@@ -45,7 +45,11 @@ public class ApplicationTest {
 	public void compteur(){
 	assertEquals(10,new Decimal().getCompteur());
     }
-
+    
+	@Test
+	public void sortie(){
+		assertEquals(0,new Decimal().getCompteur()).isEqualTo("Nombre maximal d'éssais ateint",new String().sortie());
+	}
 
 
     @Test
