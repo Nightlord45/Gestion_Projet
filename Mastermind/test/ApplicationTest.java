@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -36,7 +37,9 @@ public class ApplicationTest {
     
     @Test
 	public void en_decimal(){
-	assert_decimal((new int[]={1;2;3;4};),(new int []={2,3,5,1};));
+	int [] code= new int[] {1,2,3,4};
+	int [] valeur= new int [] {2,3,4,5};
+	assert_decimal(code,valeur);
 
     }
 
