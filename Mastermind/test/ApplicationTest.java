@@ -32,26 +32,20 @@ import models.Decimal;
 public class ApplicationTest {
     
     
-    void  assert_decimal(int [] code,int [] valeur ){
-	assertArrayEquals(code,valeur);
-    }
-    
     @Test
 	public void en_decimal(){
 	int [] code= {1,2,3,4};
 	int [] valeur= {2,3,4,5};
 	int [] valeur2 = {1,2,3,4};
-	int [] valeur1 = {1,4,0,2}; 
-	assert_decimal(code,valeur2);
+	int [] valeur1 = {1,4,0,2};
+	assertArrayEquals(code,valeur2);
     }
     
     @Test
-    public void sup(){
-		int [] code= {1,2,3,4};
-		int [] valeur= {1,3,1,0};
-		int [] valeur2 = {2,4,0,2};
-		assert_decimal(code,valeur2);
-	}
+	public void compteur(){
+	assertEquals(10,compteur);
+    }
+
 
 
     @Test

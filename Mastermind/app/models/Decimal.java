@@ -10,11 +10,9 @@ public class Decimal{
     private static final int [] valeur = {1,3,1,0}; 
     private static final int [] valeur1 = {1,4,0,2}; 
     private static final int [] valeur2 = {2,4,0,2}; 
-
+    private int compteur;
 
     public Decimal(){
-		String comp="";
-		if codeSecret<valeur2{
-			comp="+";
+	this.compteur=0;
 	}
 }
