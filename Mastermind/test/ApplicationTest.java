@@ -48,8 +48,8 @@ public class ApplicationTest {
     
 	@Test
 	public void sortie(){
-		if (getCompteur().compteur == 0){
-			assertThat("Nombre maximal d'éssais ateint").isEqualTo(sortie().messFin);
+		if (new Decimal().getCompteur() == 0){
+			assertThat("Nombre maximal d'éssais ateint");
 		}
 	}
 
