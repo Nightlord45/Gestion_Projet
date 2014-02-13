@@ -18,6 +18,7 @@ import play.libs.F.*;
 
 import static play.test.Helpers.*;
 import static org.fest.assertions.Assertions.*;
+import static org.junit.Assert.*;
 
 import models.Decimal;
 
@@ -32,17 +33,16 @@ public class ApplicationTest {
     
     
     void  assert_decimal(int [] code,int [] valeur ){
-	assertThat(Arrays.equals(code,valeur));
+	assertArrayEquals(code,valeur);
     }
     
     @Test
 	public void en_decimal(){
-	int [] code= new int[] {1,2,3,4};
-	int [] valeur= new int [] {2,3,4,5};
+	int [] code= {1,2,3,4};
+	int [] valeur= {2,3,4,5};
 	assert_decimal(code,valeur);
-	
-
     }
+
 
     @Test
 	public void simpleCheck() {
