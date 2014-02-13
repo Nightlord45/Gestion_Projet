@@ -48,7 +48,9 @@ public class ApplicationTest {
     
 	@Test
 	public void sortie(){
-		assertThat(0).isEqualTo(messFin.sortie());
+		if (getCompteur().compteur == 0){
+			assertThat("Nombre maximal d'éssais ateint").isEqualTo(sortie().messFin);
+		}
 	}
 
 

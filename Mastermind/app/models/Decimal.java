@@ -20,11 +20,11 @@ public class Decimal{
 	return compteur;
     }
     
-    public sortie(){
+    public void sortie(){
 		if (this.compteur == 0){
 			String messFin="Nombre maximal d'éssais ateint";
 			System.out.print(messFin);
-			exit(0);
+			System.exit(0);
 		}
 	}
 }
